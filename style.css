@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+h2{font-size: 4em;}   
+h3{font-size: 2em;}
+h3{font-family: 'style script', cursive;}
+
+body{
+    margin: 0;
+}
+
+header{
+    
+    height: 18vh;
+    background-color: rgb(245, 245, 245);
+    
+    
+}
+
+P2{
+    font-size: 4em;
+}
+.titulo{
+    font-family: 'Style Script', cursive;
+    font-display: center;
+    font-size: 150px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+
+
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image:url("img/Captura1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+
+    /*background-position: absolute;
+    width: 100vh;
+    height: 55vh;*/
+
+}
+button{
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    background-color: rgb(197, 235, 197);
+}
+
+button:hover{
+    background-color: rgb(113, 247, 113);
+}
+
+
+
+header a{
+    padding: 1px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(245, 67, 135);
+}
+
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+}
+.contenedor .losestilos{
+    text-align: left;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 0px;
+    margin: 30px;
+    border-radius: 15px;
+   background-position: right center;
+   height: 200px;
+   width: 200;
+
+}
+
+
+.losestilos p{
+    width: 80%;
+    text-align: initial;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+
+
+}
+
+.losestilos:first-child{
+    background-image: url("img/chocan.JPG");
+
+}
+.losestilos:nth-child(2){
+    background-image: url("img/moyogui.JPG");
+
+}
+.losestilos:nth-child(3){
+    background-image: url("img/cascada.JPG");
+
+}
+.losestilos:nth-child(4){
+    background-image: url("img/Bunjin.JPG");
+
+}
+.losestilos:nth-child(5){
+    background-image: url("img/azotado.JPG");
+
+}
+.losestilos:nth-child(6){
+    background-image: url("img/bosque.JPG");
+
+}
+.losestilos:nth-child(7){
+    background-image: url("img/cabudachi.JPG");
+
+}
+.losestilos:nth-child(8){
+    background-image: url("img/Enraizado.JPG");
+
+}
+
+
+.Definicion p{
+    width: 95%;
+    text-align: initial;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+
+
+}
+
+#historia {
+    background-color: rgb(214, 248, 217);
+   
+}
+
+
+.galeriarow img{
+    width: 100%;
+}
+.galeriarow{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.galeriacol{
+    flex: 100%;
+    padding: 10px;
+}
+
+#galeria .galeriacol{
+    flex: 25%;
+    padding: 10px 5px;
+}
+
+
+#observaciones{
+    background-color: rgb(214, 248, 217);
+    
+}
+
+.observa{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 20px;
+    
+}
+
+
+
+
+@media (min-width: 720px){
+    
+
+
+    .contenedor nav{
+        
+    flex-direction: row;
+    /*justify-content: right;*/
+    justify-content: space-between;
+    
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 700px;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        height: 13vh;
+        background-color: rgb(245, 245, 245);
+        
+        
+    }
+
+}
