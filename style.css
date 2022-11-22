@@ -58,6 +58,7 @@ header nav{
     height: 55vh;*/
 
 }
+
 button{
     font-size: 0.9em;
     font-weight: bold;
@@ -189,6 +190,40 @@ header a:hover{
     font-family: 'Signika Negative', sans-serif;
     font-size: 20px;
     
+}
+
+footer{
+    background-color: rgb(250,250,250);
+
+}
+
+footer .contenedorfinal{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+footer .titulo2{
+    display:flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-bottom: 1px;
+   
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+.redes-sociales i{
+    font-size: 60px;
+    padding: 20px;
+}
+
+.mapa{
+    display:flex;
+    justify-content: right;
 }
 
 
