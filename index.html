@@ -169,21 +169,23 @@
             <div class="observa">
                 <form action="mostrar_datos .html" target="_blank">
                     <label for="nom">Nombre: </label>
-                    <input type="text" name="nombre" id="nom">
+                    <input type="text" name="nombre" id="nom" placeholder="Ingresá tu Nombre..." required>
                     <br><br>
                     <label for="edad">Edad: </label>
-                    <input type="number" name="edad" id="edad">
+                    <input type="number" name="edad" id="edad" placeholder="Tu edad?..."required>
                     <br><br>
 
                     <label for="nom">Conocías los bonsai? : </label>
-                    <input type="text" name="nombre" id="nom">
+                    <input type="radio" name="opcion" value="1">Sí
+                    <input type="radio" name="opcion" value="2">No
+                    <!--<input type="text" name="nombre" id="nom">-->
                     <br><br>
                     <label for="obs">Observaciones: </label>
-                    <textarea name="obs" id="obs" cols="50" rows="10"></textarea>
+                    <textarea name="obs" id="obs" cols="50" rows="10">Tus observaciones/consulta...</textarea>
                     
                     <br><br>
                     <label for="email">E-mail: </label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" placeholder="Tu mail?" required>
                     <br><br>
 
                     <input type="reset" value="Borrar">
